@@ -23,6 +23,20 @@ body {
     margin: 2rem 3rem 0 3rem;
 }
 
+.header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin-right: 2rem;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .profil-img-account {
     height: 5rem;
     width: 5rem;
