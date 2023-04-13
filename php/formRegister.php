@@ -11,19 +11,16 @@
         <h2>Enregistrez-vous :</h2>
 
         <div>
-            <label for="name">Username :</label>
             <input id="name" type="text" placeholder="username" name="name">
             <div id="nameError" class="error-message"></div>
         </div>
 
         <div>
-            <label for="name">Email :</label>
             <input id="email" type="email" placeholder="email" name="email">
             <div id="emailError" class="error-message"></div>
         </div>
 
         <div>
-            <label for="name">Mot de passe :</label>
             <input id="password" type="text" placeholder="password" name="password">
             <div id="passwordError" class="error-message"></div>
         </div>
