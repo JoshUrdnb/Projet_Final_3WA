@@ -33,7 +33,7 @@ function validateForm(event) {
   // Si le formulaire est valide, envoi du formulaire
   if (isFormValid()) {
     form.submit();
-    alert("valide");
+    // alert("valide");
   } else {
     event.preventDefault();
   }

@@ -20,9 +20,9 @@ if(isset($_POST['register-submit'])) {
             "password" => $userPassword
         )
     );
+    // header('Location: ../index.php');
 
-    $response = $request->fetchAll(PDO::FETCH_ASSOC);
-    var_dump($response);
+    echo 'Inscription reussie !';
 
 }
 
