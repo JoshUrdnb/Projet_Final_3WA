@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<?php include 'traitement.php'; ?>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +17,7 @@
         </nav>
     </header>
 
-    <form id="formRegister" method="POST" action="traitement.php">
+    <form id="formRegister" method="POST" action="" onsubmit="return validateForm(event)">
         <h2>Register :</h2>
 
         <div>
