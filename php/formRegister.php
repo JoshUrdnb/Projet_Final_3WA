@@ -18,17 +18,17 @@
         <h2>Register :</h2>
 
         <div>
-            <input id="name" type="text" placeholder="Enter an username" name="name">
+            <input id="name" type="text" placeholder="Enter an username" name="name" required>
             <div id="nameError" class="error-message"></div>
         </div>
 
         <div>
-            <input id="email" type="text" placeholder="Enter your email" name="email">
+            <input id="email" type="text" placeholder="Enter your email" name="email" required>
             <div id="emailError" class="error-message"></div>
         </div>
 
         <div>
-            <input id="password" type="password" placeholder="Enter your password" name="password">
+            <input id="password" type="password" placeholder="Enter your password" name="password" required>
             <div id="passwordError" class="error-message"></div>
         </div>
 

@@ -15,7 +15,7 @@
 
 <body>
 
-    <?php include 'php/request.php'; ?>
+    <?php //include 'php/request.php'; ?>
 
     <header class="dashboard-header">
         <img src="img/logo.png" alt="logo du site">
