@@ -10,7 +10,7 @@ const emailRegex = /^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/;
 // Fonction de validation du formulaire
 function validateForm(event) {
   // Empêche l'envoi du formulaire par défaut
-  event.preventDefault();
+  
 
   // Réinitialisation des messages d'erreur
   clearErrors();
@@ -33,6 +33,9 @@ function validateForm(event) {
   // Si le formulaire est valide, envoi du formulaire
   if (isFormValid()) {
     form.submit();
+    alert("valide");
+  } else {
+    event.preventDefault();
   }
 }
 
@@ -63,4 +66,4 @@ function isFormValid() {
 }
 
 // Écouteur d'événement sur la soumission du formulaire
-form.addEventListener('submit', validateForm);
+// form.addEventListener('submit', validateForm);

@@ -9,8 +9,8 @@ if(isset($_POST['register-submit'])) {
     $userName = $_POST['name'];
     $userEmail = $_POST['email'];
     $userPassword = $_POST['password'];
-    var_dump($userEmail);
-    die();
+    // var_dump($userEmail);
+    // die();
 
     $request = $db->prepare('INSERT INTO members VALUES (0, :name, :email, :password)');
     $request->execute(
@@ -21,12 +21,8 @@ if(isset($_POST['register-submit'])) {
         )
     );
 
-    $responce = $request->fetchAll(PDO::FETCH_ASSOC);
-    var_dump($responce);
-
-} else {
-
-    echo 'Problème lors de la validation';
+    $response = $request->fetchAll(PDO::FETCH_ASSOC);
+    var_dump($response);
 
 }
 
