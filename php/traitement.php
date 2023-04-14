@@ -21,8 +21,8 @@ if(isset($_POST['register-submit'])) {
         )
     );
 
-    $responce = $request->fetchAll(PDO::FETCH_ASSOC);
-    var_dump($responce);
+    $response = $request->fetchAll(PDO::FETCH_ASSOC);
+    var_dump($response);
 
 } else {
 
