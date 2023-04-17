@@ -31,7 +31,7 @@
                     if($response['id'] != false) { //erreur lorsque login n'existe pas, pourquoi ??????
                         // c'est ok
                         echo "You're logged in !";
-                        header('Location: ../index.php');
+                        header('Location: ../homepage.php');
                     } else {
                         echo "Email or password incorrect !";
                     }
