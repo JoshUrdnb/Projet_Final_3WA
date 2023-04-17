@@ -15,13 +15,10 @@
 
 <body>
 
-    <?php //include 'php/request.php'; ?>
-
     <header class="dashboard-header">
         <img src="img/logo.png" alt="logo du site">
         <nav class="header-nav">
-            <a href="controllers/formRegister.php">Sign Up</a>
-            <a href="controllers/formLogin.php">Sign In</a>
+            <a href="controllers/logout.php">Logout</a>
             <div class="profil-img-account"></div>
         </nav>
     </header>
@@ -33,6 +30,19 @@
             </div>
         </section>
 
+        <section class="watchlist-container">
+            <h2 class="watchlist-title">Watchlist</h2>
+            <div class="watchlist">
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+                <div class="selection"></div>
+            </div>
+        </section>
     </main>
 </body>
 
