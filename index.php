@@ -20,8 +20,8 @@
     <header class="dashboard-header">
         <img src="img/logo.png" alt="logo du site">
         <nav class="header-nav">
-            <a href="php/formRegister.php">Sign Up</a>
-            <a href="php/formLogin.php">Sign In</a>
+            <a href="controllers/formRegister.php">Sign Up</a>
+            <a href="controllers/formLogin.php">Sign In</a>
             <div class="profil-img-account"></div>
         </nav>
     </header>

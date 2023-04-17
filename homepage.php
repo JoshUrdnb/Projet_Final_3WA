@@ -18,7 +18,7 @@
     <header class="dashboard-header">
         <img src="img/logo.png" alt="logo du site">
         <nav class="header-nav">
-            <a href="php/logout.php">Logout</a>
+            <a href="controllers/logout.php">Logout</a>
             <div class="profil-img-account"></div>
         </nav>
     </header>
